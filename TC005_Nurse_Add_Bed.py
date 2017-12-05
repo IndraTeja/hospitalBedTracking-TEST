@@ -1,10 +1,13 @@
+#Author : Deepthi
+#Final Test Demo
 
 import unittest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-class Blog_ATS(unittest.TestCase):
+
+class TC005_Nurse_Add_Bed(unittest.TestCase):
 
    def setUp(self):
        self.driver = webdriver.Chrome()
