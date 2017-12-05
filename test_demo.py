@@ -3,13 +3,13 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import csv
-from Nurse_Patient_CRUD import *
-from press_report import *
-from TesScript_Hospital_CRUD import *
-from TestScript_Nurselogin import *
-from TestScript_ContactUs import *
-from bed_availability import *
-from TestScript_Nurse_CRUD import *
+from TC004_Nurse_Patient_CRUD import *
+from TC010_press import *
+from TC001_Hospital_CRUD import *
+from TC003_NurseLogin import *
+from TC011_Contact_us import *
+from TC009_bed_availability import *
+from TC002_Nurse_CRUD import *
 
 class ConfigTestCase(unittest.TestCase):
     def setUp(self):
