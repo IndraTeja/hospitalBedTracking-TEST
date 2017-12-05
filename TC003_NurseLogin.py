@@ -14,8 +14,6 @@ class TC003_NurseLogin(unittest.TestCase):
        self.driver = webdriver.Chrome()
 
 
-
-
    def test_nurse_login(self):
        user = "unmc"
        pwd = "unmc2017"
@@ -36,14 +34,6 @@ class TC003_NurseLogin(unittest.TestCase):
        elem.send_keys(pwd)
        elem.send_keys(Keys.RETURN)
        time.sleep(2)
-
-
-
-
-
-
-
-
 
    def tearDown(self):
        self.driver.close()

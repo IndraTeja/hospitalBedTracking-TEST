@@ -8,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-class TC009_bed_availability(unittest.TestCase):
+class TC006_bed_availability(unittest.TestCase):
 
     def setUp(self):
        self.driver = webdriver.Chrome()

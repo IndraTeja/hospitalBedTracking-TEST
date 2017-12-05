@@ -43,8 +43,8 @@ class TC001_Hospital_CRUD(unittest.TestCase):
        elem.send_keys(Keys.RETURN)
        time.sleep(2)
 
-       Hospital_id = "chmc"
-       Hospital_Name = "Creighton Hospital Medical Center"
+       Hospital_id = "mhs"
+       Hospital_Name = "Methodist Hospital System"
        Hospital_address = "5120 Charles St"
        Hospital_phone ="4026802537"
 

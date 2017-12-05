@@ -4,11 +4,11 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import csv
 from TC004_Nurse_Patient_CRUD import *
-from TC010_press import *
+from TC007_press import *
 from TC001_Hospital_CRUD import *
 from TC003_NurseLogin import *
-from TC011_Contact_us import *
-from TC009_bed_availability import *
+from TC008_Contact_us import *
+from TC006_bed_availability import *
 from TC002_Nurse_CRUD import *
 from TC005_Nurse_Add_Bed import *
 

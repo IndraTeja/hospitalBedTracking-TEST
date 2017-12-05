@@ -38,9 +38,8 @@ class TC005_Nurse_Add_Bed(unittest.TestCase):
        elem.send_keys(Keys.RETURN)
        time.sleep(2)
 
-       bed_id = "124"
+       bed_id = "203"
        elem = driver.find_element_by_id("id_bed_id")
-       elem.send_keys(bed_id)
        elem = driver.find_element_by_xpath("/html/body/div/div/div/form/button")
        elem.send_keys(Keys.RETURN)
        time.sleep(3)
