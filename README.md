@@ -1,4 +1,4 @@
-# MSD-Team3-Test
+# MSD-Team DurangoPy
 This repository contains files that includes all test scripts that have been developed during the course of development of our Emergency Bed Tracking System application.
 
 Here we run automated test scripts written using Selenium, which are portable software-testing framework meant for web applications.
@@ -16,3 +16,4 @@ The collaborators are -
 * Deepika Angelene Jantz
 
 * Nikesh Venkataravanappa
+
