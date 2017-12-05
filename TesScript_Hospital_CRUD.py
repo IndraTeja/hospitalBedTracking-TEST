@@ -57,10 +57,7 @@ class Hospital_CRUD(unittest.TestCase):
        elem.send_keys(Keys.RETURN)
        time.sleep(2)
 
-       #To Edit a particular form -
-       #elem1=driver.findElement(by.xpath("//*[text()='chmc']"))
-
-       # elem = driver.find_element_by_xpath("/ html / body / div / div / div / div / div / div / table / tbody / tr['chum'] / td['chum']")
+       #To Edit a particular row
        elem = driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/table/tbody/tr[5]/td[5]/a[1]")
        elem.send_keys(Keys.RETURN)
        time.sleep(2)
@@ -74,7 +71,7 @@ class Hospital_CRUD(unittest.TestCase):
        elem.send_keys(Keys.RETURN)
        time.sleep(2)
 
-       #Click on Delete Button -
+       #Click on Delete Button
        elem = driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/table/tbody/tr[5]/td[5]/a[2]")
        elem.send_keys(Keys.RETURN)
        alertObj = driver.switch_to.alert

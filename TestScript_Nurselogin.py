@@ -18,11 +18,11 @@ class Blog_NurseLogin(unittest.TestCase):
        pwd = "unmc2017"
        driver = self.driver
        driver.maximize_window()
-       driver.get("https://durangopy-ebed-tracking-system.herokuapp.com")
+       driver.get("https://durangopy-bed-track.herokuapp.com")
        assert "Logged In"
 
        # To Navigate to the Login button for Nurse login
-       elem = driver.find_element_by_xpath("/html/body/nav/div/div[2]/ul[2]/li/a")
+       elem = driver.find_element_by_xpath("/html/body/div/div/div/div[2]/div/div/div/div[2]/a")
        elem.click()
        time.sleep(2)
 
