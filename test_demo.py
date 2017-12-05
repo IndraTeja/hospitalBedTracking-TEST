@@ -11,6 +11,7 @@ from TC008_Contact_us import *
 from TC006_bed_availability import *
 from TC002_Nurse_CRUD import *
 from TC005_Nurse_Add_Bed import *
+from TC009_Neg_Hospital_CRUD import *
 
 class ConfigTestCase(unittest.TestCase):
     def setUp(self):
