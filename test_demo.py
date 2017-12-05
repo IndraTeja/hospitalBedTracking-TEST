@@ -7,7 +7,7 @@ from Nurse_Patient_CRUD import *
 from press_report import *
 from TesScript_Hospital_CRUD import *
 from TestScript_Nurselogin import *
-from TestScript-ContactUs import *
+from TestScript_ContactUs import *
 
 
 class ConfigTestCase(unittest.TestCase):
