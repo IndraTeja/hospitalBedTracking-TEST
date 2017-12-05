@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-class Blog_NurseLogin(unittest.TestCase):
+class Test2_Blog_NurseLogin(unittest.TestCase):
 
    def setUp(self):
        self.driver = webdriver.Chrome()

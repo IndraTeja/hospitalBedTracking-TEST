@@ -10,7 +10,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-class Test_1(unittest.TestCase):
+class Test_5(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
 

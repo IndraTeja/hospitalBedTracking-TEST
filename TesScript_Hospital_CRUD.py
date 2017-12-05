@@ -1,11 +1,11 @@
-
 import unittest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 
-class Hospital_CRUD(unittest.TestCase):
+
+class Test1_Hospital_CRUD(unittest.TestCase):
 
    def setUp(self):
        self.driver = webdriver.Chrome()
