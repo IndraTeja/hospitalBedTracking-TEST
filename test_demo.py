@@ -10,6 +10,7 @@ from TC003_NurseLogin import *
 from TC011_Contact_us import *
 from TC009_bed_availability import *
 from TC002_Nurse_CRUD import *
+from TC005_Nurse_Add_Bed import *
 
 class ConfigTestCase(unittest.TestCase):
     def setUp(self):
