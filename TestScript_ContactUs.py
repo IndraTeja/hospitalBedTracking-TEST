@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-class Test6_Contact_us(unittest.TestCase):
+class TC011_Contact_us(unittest.TestCase):
 
    def setUp(self):
        self.driver = webdriver.Chrome()

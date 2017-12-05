@@ -8,7 +8,8 @@ from press_report import *
 from TesScript_Hospital_CRUD import *
 from TestScript_Nurselogin import *
 from TestScript_ContactUs import *
-
+from bed_availability import *
+from TestScript_Nurse_CRUD import *
 
 class ConfigTestCase(unittest.TestCase):
     def setUp(self):

@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-class Test5_press(unittest.TestCase):
+class TC010_press(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
 

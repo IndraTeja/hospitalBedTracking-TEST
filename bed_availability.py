@@ -1,10 +1,14 @@
+#Author : Vivek
+#Final Test Demo
+
+
 import unittest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-class bed_availability(unittest.TestCase):
+class TC009_bed_availability(unittest.TestCase):
 
     def setUp(self):
        self.driver = webdriver.Chrome()

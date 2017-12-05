@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 
-class Test3_Nurse_Patient_CRUD(unittest.TestCase):
+class TC004_Nurse_Patient_CRUD(unittest.TestCase):
 
    def setUp(self):
        self.driver = webdriver.Chrome()
